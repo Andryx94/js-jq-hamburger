@@ -10,13 +10,13 @@
 //   }
 // );
 
-$(".fa-bars").click(
+$(".header-right a").click(
   function() {
     $(".hamburger-menu").addClass("active");
   }
 );
 
-$(".fa-times").click(
+$(".close").click(
   function() {
     $(".hamburger-menu").removeClass("active");
   }
